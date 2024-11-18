@@ -1,8 +1,12 @@
+import Header from "../components/Header"
 
 
 const SignInPage = () => {
   return (
-    <div>SignInPage</div>
+    <div>
+        <Header/>
+        SignInPage
+    </div>
   )
 }
 

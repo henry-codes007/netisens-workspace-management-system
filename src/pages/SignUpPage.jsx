@@ -1,8 +1,12 @@
+import Header from "../components/Header"
 
 
 const SignUpPage = () => {
   return (
-    <div>SignUpPage</div>
+    <div>
+        <Header/>
+        SignUpPage
+    </div>
   )
 }
 

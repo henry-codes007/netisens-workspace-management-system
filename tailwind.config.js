@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         "primary-color": "#160433",
+        "green-color": "#0cf637",
       }
     },
   },
