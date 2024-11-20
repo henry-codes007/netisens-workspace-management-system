@@ -5,4 +5,5 @@
   @apply border-2;
   border-image: linear-gradient(to right, lime, purple) 1;
   border-radius: 20px !important;
+  
 }
