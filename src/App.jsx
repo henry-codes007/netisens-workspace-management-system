@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <div className='h-screen bg-primary-color text-white'>
+    <div className='min-h-screen bg-primary-color text-white'>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/signin' element={<SignInPage/>}/>
