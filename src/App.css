@@ -1,15 +1,16 @@
 .hero{
   height: calc(100vh - 70px);
-}
-.custom-border {
-  @apply border-2;
+/* } */
+/* .custom-border { */
+  /* @apply border-2; */
   border-image: linear-gradient(to right, lime, purple) 1;
-  border-radius: 20px !important;
-<<<<<<< HEAD
-  
-}
-=======
-}
+  /* border-radius: 20px !important; */
+/* <<<<<<< HEAD */
+/*    */
+/* } */
+/* ======= */
+ } 
+    
 .navbar{
   position: fixed;
   height: 100vh;
@@ -44,4 +45,4 @@
   }
  
 }
->>>>>>> 8ca84d5ba5c0475737d3d74fbd53f30f420545de
+/* >>>>>>> 8ca84d5ba5c0475737d3d74fbd53f30f420545de */
