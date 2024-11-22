@@ -5,5 +5,43 @@
   @apply border-2;
   border-image: linear-gradient(to right, lime, purple) 1;
   border-radius: 20px !important;
+<<<<<<< HEAD
   
 }
+=======
+}
+.navbar{
+  position: fixed;
+  height: 100vh;
+  width: 60%;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 32px;
+  transition: transform 0.5s linear;
+}
+.navbar.show{
+  transform: translateX(0%);
+}
+
+@media (min-width: 1024px){
+  .navbar{
+    position: unset;
+    width: unset;
+    transform: translateX(0%);
+    flex-direction: row;
+    height: unset;
+    top: 0;
+    left: 0;
+    gap: 20px;
+    font-size: 16px;
+    /* justify-self: end; */
+  }
+ 
+}
+>>>>>>> 8ca84d5ba5c0475737d3d74fbd53f30f420545de
